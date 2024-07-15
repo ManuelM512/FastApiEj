@@ -7,7 +7,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://netlify-deploy--splendorous-moxie-0713dc.netlify.app"],
+    allow_origins=["https://how-far-am-i.netlify.app/"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

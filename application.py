@@ -6,7 +6,7 @@ app = FastAPI()
 
 
 @app.post("/reach")
-def reacher(links: Links):
+async def reacher(links: Links):
     from_link = links.from_link
     to_link = links.to_link
     wikipedia = "https://es.wikipedia.org"
